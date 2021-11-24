@@ -2,6 +2,8 @@
 import pytest
 from calculator import Calculator
 
+cal=Calculator()
+
 def test_addition():
     assert cal.addition(8,2) == 10
 def test_subtraction():

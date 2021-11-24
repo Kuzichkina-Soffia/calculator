@@ -1,11 +1,11 @@
 #калькулятор
 class Calculator:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+    # def __init__(self, x, y):
+    #     self.x = x
+    #     self.y = y
 
     def addition(self,x,y):
-        return self.x+self.y
+        return x+y
     
     def subtraction(self,x,y):
         return(x-y)
