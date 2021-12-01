@@ -14,7 +14,10 @@ class Calculator:
         return(x*y)
     
     def division(self,x,y):
-        return(x/y)
+        if y==0:
+            return("Деление на ноль запрещено!")
+        else:
+            return(x/y)
     
     def exponentiation(self,x,y):
         return(x**y)
